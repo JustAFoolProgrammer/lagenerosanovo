@@ -1,0 +1,50 @@
+
+.bg-light{
+    background-color: rgb(53, 52, 52)!important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+.card-img-top{
+    height: 8rem;
+    margin-top: 5px;
+}
+.card-text{
+    text-align: left;
+    margin: 0 auto;
+    line-height: 18px;
+    width:125%;
+    padding-right: 10px;
+}
+.card-title{
+    text-align: center;
+    margin: 0 auto;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    height: 20rem;
+    width: 15rem;
+    border-color: rgb(156, 62, 7);
+    border-width: 3px;
+    margin: 15px;
+    margin-left: 30px;
+}
+.btn-secondary{
+    background-color: blue;
+    display:block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    background-color: green;
+    display:block;
+    width: 100%;
+}
+body{
+    background-color: black;
+}

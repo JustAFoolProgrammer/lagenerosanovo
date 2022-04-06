@@ -1,0 +1,20 @@
+{% extends "pedido/base.html" %}
+{% block content %}
+<title>Cardápio on-line</title>
+<div class="row">
+  {% for pedido in pedido_list %}
+<div class="card">
+  <div class="col">
+    <img class="card-img-top" src="{{pedido.imagem.url}}" alt="Card image cap"></img>
+    <div class="card-body">
+      <h5 class="card-title">{{pedido.nome}}</h5>
+      <p class="card-text">{{pedido.des_pedido}}</p>
+      <a href="https://api.whatsapp.com/send?phone=5516997308651&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%2C%20vi%20as%20pizzas%20no%20seu%20site!" class="btn btn-primary">Pedir via WhatsApp</a>
+      <a href="http://m.me/otavioagvalasco" class="btn btn-secondary">Pedir via Messenger</a>
+    </div>
+  </div>
+</div>
+  {% endfor %}
+</div>
+
+{% endblock %}
